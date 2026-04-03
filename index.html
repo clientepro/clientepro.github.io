@@ -6,12 +6,40 @@
     <title>Voz del Cliente | Consultoría de Experiencia del Cliente para PyMEs</title>
     <meta name="description" content="Consultoría especializada en Customer Experience (CX) para empresas en crecimiento. Mystery Shopper, NPS, Customer Journey y estrategias de lealtad.">
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            300: '#7cc7fb',
+                            400: '#38a9f8',
+                            500: '#0e8ceb',
+                            600: '#026ec7',
+                            700: '#0358a1',
+                            800: '#074b85',
+                            900: '#0c3f6e',
+                        },
+                        accent: {
+                            500: '#f59e0b',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="/index.css">
 </head>
 <body class="font-sans text-slate-700 bg-white antialiased flex flex-col min-h-screen">
 
