@@ -317,13 +317,21 @@
             
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Barberías -->
-                <div class="bg-white rounded-3xl border border-slate-200 shadow-lg hover:border-success-500 transition-all overflow-hidden flex flex-col">
-                    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=400" alt="Barbería Profesional" class="w-full h-48 object-cover">
+                <a href="barberia-ejemplo.html" class="bg-white rounded-3xl border border-slate-200 shadow-lg hover:border-success-500 transition-all overflow-hidden flex flex-col group">
+                    <div class="relative overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=400" alt="Barbería Profesional" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-4 right-4 bg-brand-900/80 text-white text-[10px] font-bold px-2 py-1 rounded-full backdrop-blur-sm opacity-0 group-hover:opacity-100 transition-opacity">
+                            VER EJEMPOLO PRO
+                        </div>
+                    </div>
                     <div class="p-6">
-                        <h3 class="text-2xl font-bold mb-3">Barberías</h3>
+                        <h3 class="text-2xl font-bold mb-3 flex items-center justify-between">
+                            Barberías
+                            <i class="fas fa-external-link-alt text-xs text-slate-400"></i>
+                        </h3>
                         <p class="text-slate-600 text-lg font-medium">Fotos de tus trabajos + agenda de citas por WhatsApp</p>
                     </div>
-                </div>
+                </a>
                 <!-- Restaurantes -->
                 <div class="bg-white rounded-3xl border border-slate-200 shadow-lg hover:border-success-500 transition-all overflow-hidden flex flex-col">
                     <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=400" alt="Restaurante Atractivo" class="w-full h-48 object-cover">

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Imperial | Ejemplo de Cliente Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .font-oswald { font-family: 'Oswald', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 font-sans text-slate-300 antialiased">
+
+    <!-- Header Demo -->
+    <header class="fixed w-full z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="text-2xl font-oswald font-bold text-white tracking-widest uppercase italic">Imperial Barber</span>
+            </div>
+            <a href="index.html" class="bg-white/10 hover:bg-white text-white hover:text-black px-4 py-2 rounded-lg text-sm font-bold transition-all flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i> Volver a Cliente Pro
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Demo -->
+    <section class="relative min-h-screen flex items-center justify-center pt-20">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=1920" class="w-full h-full object-cover opacity-40" alt="Background">
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950"></div>
+        </div>
+        
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+            <span class="text-amber-500 font-oswald text-xl tracking-[0.3em] uppercase mb-4 block">Estilo & Tradición</span>
+            <h1 class="text-6xl md:text-8xl font-oswald font-bold text-white uppercase italic leading-tight mb-8">Cortes que definen <br> a un caballero</h1>
+            <p class="text-xl text-slate-400 mb-12 max-w-2xl mx-auto">Experiencia de primer nivel en el corazón de Bogotá. Reservas rápidas y atención personalizada.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="bg-amber-600 hover:bg-amber-700 text-white px-10 py-5 rounded-full font-oswald text-xl uppercase tracking-wider transition-all">Reservar Cita</a>
+                <a href="#" class="border-2 border-white/20 hover:border-white text-white px-10 py-5 rounded-full font-oswald text-xl uppercase tracking-wider transition-all">Ver Servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Demo -->
+    <section class="py-24 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-oswald font-bold text-white uppercase italic mb-4">Nuestros Servicios</h2>
+                <div class="h-1 w-20 bg-amber-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-amber-600 transition-all text-center group">
+                    <div class="text-4xl text-amber-500 mb-6 group-hover:scale-110 transition-transform"><i class="fas fa-cut"></i></div>
+                    <h3 class="text-2xl font-oswald text-white uppercase mb-4 tracking-wider">Corte Clásico</h3>
+                    <p class="text-slate-400">Degradados, tijera y acabados perfectos con navaja.</p>
+                    <p class="text-amber-500 font-oswald text-2xl mt-4">$35.000</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-amber-600 transition-all text-center group">
+                    <div class="text-4xl text-amber-500 mb-6 group-hover:scale-110 transition-transform"><i class="fas fa-user-ninja"></i></div>
+                    <h3 class="text-2xl font-oswald text-white uppercase mb-4 tracking-wider">Perfilado de Barba</h3>
+                    <p class="text-slate-400">Hidratación, toalla caliente y diseño de barba.</p>
+                    <p class="text-amber-500 font-oswald text-2xl mt-4">$25.000</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 hover:border-amber-600 transition-all text-center group">
+                    <div class="text-4xl text-amber-500 mb-6 group-hover:scale-110 transition-transform"><i class="fas fa-spa"></i></div>
+                    <h3 class="text-2xl font-oswald text-white uppercase mb-4 tracking-wider">Imperial Spa</h3>
+                    <p class="text-slate-400">Limpieza facial profunda + Masaje capilar recreativo.</p>
+                    <p class="text-amber-500 font-oswald text-2xl mt-4">$45.000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notification Demo (Cliente Pro) -->
+    <div class="fixed bottom-8 left-8 z-[100] max-w-sm flex">
+        <div class="bg-white p-4 rounded-2xl shadow-2xl border border-blue-200 flex items-start gap-4 animate-bounce">
+            <div class="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                <i class="fas fa-info-circle"></i>
+            </div>
+            <div>
+                <p class="text-slate-900 font-bold text-sm">Ejemplo de Cliente Pro</p>
+                <p class="text-slate-600 text-xs">Esta es una estructura optimizada para barberías. <a href="index.html" class="text-blue-600 font-bold underline">Quiero una así</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Demo -->
+    <div class="fixed bottom-8 right-8 z-[100]">
+        <div class="bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all">
+            <i class="fab fa-whatsapp text-4xl"></i>
+        </div>
+    </div>
+
+</body>
+</html>
