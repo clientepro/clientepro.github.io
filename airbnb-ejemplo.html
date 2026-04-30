@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadía Paraíso | Ejemplo de Cliente Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <style>
+        .font-jakarta { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-white font-sans text-slate-900 antialiased font-jakarta">
+
+    <!-- Hero Gallery Start -->
+    <section class="max-w-7xl mx-auto px-4 pt-8">
+        <div class="grid grid-cols-4 grid-rows-2 gap-4 h-[60vh] rounded-3xl overflow-hidden">
+            <div class="col-span-2 row-span-2 relative group">
+                <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover transition duration-500 group-hover:scale-105" alt="Stay">
+                <a href="index.html" class="absolute top-6 left-6 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold flex items-center gap-2">
+                    <i class="fas fa-arrow-left"></i> Cliente Pro
+                </a>
+            </div>
+            <div class="col-span-1 row-span-1"><img src="https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover" alt="Stay"></div>
+            <div class="col-span-1 row-span-1"><img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&q=80&w=600" class="w-full h-full object-cover" alt="Stay"></div>
+            <div class="col-span-2 row-span-1"><img src="https://images.unsplash.com/photo-1512918766671-ad651ec3db21?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover" alt="Stay"></div>
+        </div>
+    </section>
+
+    <!-- Details -->
+    <section class="max-w-7xl mx-auto px-4 py-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-16">
+            <div class="lg:col-span-2">
+                <div class="flex items-center justify-between border-b pb-8 mb-8">
+                    <div>
+                        <h1 class="text-4xl font-bold mb-2">Apartamento Nórdico con Vista</h1>
+                        <p class="text-slate-500">Bogotá D.C, Colombia • ★ 4.98 (120 reseñas)</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 py-8 border-b">
+                    <div class="text-center">
+                        <i class="fas fa-bed text-2xl text-slate-400 mb-2"></i>
+                        <p class="text-sm font-bold">2 Habitaciones</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-bath text-2xl text-slate-400 mb-2"></i>
+                        <p class="text-sm font-bold">1 Baño</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-wifi text-2xl text-slate-400 mb-2"></i>
+                        <p class="text-sm font-bold">Wifi Fibra</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-tv text-2xl text-slate-400 mb-2"></i>
+                        <p class="text-sm font-bold">Smart TV</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:col-span-1">
+                <div class="bg-white border rounded-3xl p-8 shadow-xl sticky top-24">
+                    <div class="flex justify-between items-end mb-6">
+                        <p class="text-2xl font-bold">$180.000 <span class="text-base text-slate-500 font-normal">/ noche</span></p>
+                    </div>
+                    <a href="#" class="w-full bg-rose-500 text-white py-4 rounded-xl font-bold text-center block mb-4 hover:bg-rose-600 transition">Reservar Directo</a>
+                    <p class="text-center text-xs text-slate-400 italic">Evita comisiones de plataformas externas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Badge -->
+    <div class="fixed bottom-8 left-8 z-[100] max-w-sm flex">
+        <div class="bg-white p-4 rounded-2xl shadow-2xl border border-slate-200 flex items-start gap-4">
+            <div class="bg-rose-500 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                <i class="fas fa-home"></i>
+            </div>
+            <div>
+                <p class="font-bold text-sm">Demo Airbnb / Alojamientos</p>
+                <p class="text-slate-600 text-xs text-slate-500">Ideal para ahorrarse comisiones. <a href="index.html" class="text-rose-600 font-bold underline">Haz la tuya</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

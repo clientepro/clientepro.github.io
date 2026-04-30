@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Brasa Gourmet | Ejemplo de Cliente Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .font-playfair { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-white font-sans text-slate-800 antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/90 backdrop-blur-md border-b border-orange-100">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+            <span class="text-2xl font-playfair font-bold text-orange-900 tracking-tight">La Brasa Gourmet</span>
+            <a href="index.html" class="bg-orange-600 hover:bg-orange-700 text-white px-5 py-2 rounded-full text-sm font-bold transition-all flex items-center gap-2">
+                <i class="fas fa-arrow-left"></i> Volver a Cliente Pro
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative h-[80vh] flex items-center justify-center pt-20">
+        <div class="absolute inset-0">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=1920" class="w-full h-full object-cover" alt="Restaurante Interior">
+            <div class="absolute inset-0 bg-black/50"></div>
+        </div>
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-playfair text-white mb-6">Sabores que cuentan historias</h1>
+            <p class="text-xl text-white/80 max-w-2xl mx-auto mb-10 text-slate-200">El mejor corte de carne en Bogotá, preparado con pasión y tradición.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#" class="bg-orange-600 text-white px-8 py-4 rounded-full font-bold uppercase tracking-wide hover:bg-orange-700 transition">Ver Menú Digital</a>
+                <a href="#" class="bg-white text-orange-900 px-8 py-4 rounded-full font-bold uppercase tracking-wide hover:bg-slate-100 transition">Reservar Mesa</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-4xl font-playfair text-center mb-16 text-slate-900">Nuestros Especialistas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="flex items-center gap-6 bg-white p-6 rounded-2xl shadow-sm border border-orange-50">
+                    <img src="https://images.unsplash.com/photo-1432139500611-5a398322c300?auto=format&fit=crop&q=80&w=200" class="w-24 h-24 rounded-full object-cover" alt="Dish">
+                    <div>
+                        <h3 class="text-xl font-bold">Tomahawk Prime</h3>
+                        <p class="text-slate-500">800g de carne seleccionada a la parrilla.</p>
+                        <span class="text-orange-600 font-bold">$125.000</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-6 bg-white p-6 rounded-2xl shadow-sm border border-orange-50">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&q=80&w=200" class="w-24 h-24 rounded-full object-cover" alt="Dish">
+                    <div>
+                        <h3 class="text-xl font-bold">Parrillada Gourmet</h3>
+                        <p class="text-slate-500">Mezcla de cortes para compartir.</p>
+                        <span class="text-orange-600 font-bold">$95.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cliente Pro Badge -->
+    <div class="fixed bottom-8 left-8 z-[100] max-w-sm flex">
+        <div class="bg-white p-4 rounded-2xl shadow-2xl border border-orange-200 flex items-start gap-4 animate-bounce">
+            <div class="bg-orange-600 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                <i class="fas fa-utensils"></i>
+            </div>
+            <div>
+                <p class="text-slate-900 font-bold text-sm">Demo Restaurante</p>
+                <p class="text-slate-600 text-xs">Estructura ideal para pedidos y reservas. <a href="index.html" class="text-orange-600 font-bold underline">Crea la tuya</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

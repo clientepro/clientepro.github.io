@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savia Spa | Ejemplo de Cliente Pro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
+    <style>
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#fdfcf9] font-sans text-slate-700 antialiased">
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 bg-white/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <span class="text-2xl font-montserrat tracking-[0.2em] uppercase text-emerald-900">Savia Spa</span>
+            <a href="index.html" class="bg-emerald-900 text-white px-6 py-2 rounded-full text-xs font-bold uppercase tracking-widest hover:bg-emerald-800 transition">
+                Regresar
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="relative min-h-screen flex items-center pt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-2 w-full">
+            <div class="p-12 lg:p-24 flex flex-col justify-center">
+                <span class="text-emerald-700 font-bold tracking-[0.3em] uppercase mb-6">Tu momento de calma</span>
+                <h1 class="text-5xl lg:text-7xl font-montserrat text-emerald-900 mb-8 leading-tight">Renueva tu cuerpo y alma</h1>
+                <p class="text-xl text-slate-500 mb-12">Tratamientos diseñados para desconectarte del mundo y reconectarte contigo.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="bg-emerald-900 text-white px-10 py-5 rounded-full font-bold uppercase tracking-widest hover:shadow-xl transition">Reservar</a>
+                    <a href="#" class="border border-emerald-900 text-emerald-900 px-10 py-5 rounded-full font-bold uppercase tracking-widest hover:bg-emerald-50 transition">Servicios</a>
+                </div>
+            </div>
+            <div class="relative h-[50vh] lg:h-screen">
+                <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=1200" class="w-full h-full object-cover" alt="Spa Treatment">
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <div class="fixed bottom-8 left-8 z-[100] max-w-sm flex">
+        <div class="bg-white p-4 rounded-2xl shadow-2xl border border-emerald-100 flex items-start gap-4 animate-pulse">
+            <div class="bg-emerald-700 text-white w-10 h-10 rounded-full flex items-center justify-center shrink-0">
+                <i class="fas fa-leaf"></i>
+            </div>
+            <div>
+                <p class="text-slate-900 font-bold text-sm">Demo de Spa & Estética</p>
+                <p class="text-slate-600 text-xs">Estructura visual y elegante. <a href="index.html" class="text-emerald-700 font-bold underline">Ver planes</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
